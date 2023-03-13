@@ -4,9 +4,19 @@
 
 ### model
 モデルの構造を記述したpythonファイルを格納したディレクトリです。
+- cnn_model.py
+- lstm_model.py
+- sinctdnn.py
+- sinctdnn_age.py
 
 ### train_embedding
 埋め込みモデル学習のためのpythonファイルを格納したディレクトリです。
+- XvecDataloader.py
+  - 埋め込み抽出モデル学習のためのデータローダを構築します。
+- trainAgevector.py
+  - AgeVoxCelebを用いて年齢推定タスクでSincTDNNモデルを学習します。
+- trainXvector.py
+  - VoxCeleb2またはAgeVoxCelebを用いて話者識別タスクでSincTDNNモデルを学習します。
 
 ### README.md
 このファイルです。
